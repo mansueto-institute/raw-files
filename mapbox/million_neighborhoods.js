@@ -61,3 +61,21 @@ flyHandler('nepal', {
   zoom: 10,
   speed: 20
 });
+
+var layers = ['High access', '', 'Universal access', 'Limited access', '', '', 'Critical deficits'];
+var colors = ['#a7f39a', '#d8f6d5', '#faf9f9', '#f7dbdb', '#f09799', '#f07172', '#f55758'];
+
+for (i = 0; i < layers.length; i++) {
+  var layer = layers[i];
+  var color = colors[i];
+  var item = document.createElement('div');
+  var key = document.createElement('span');
+  key.className = 'legend-key';
+  key.style.backgroundColor = color;
+
+  var value = document.createElement('span');
+  value.innerHTML = layer;
+  item.appendChild(key);
+  item.appendChild(value);
+  legend.appendChild(item);
+}
