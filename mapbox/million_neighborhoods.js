@@ -67,7 +67,7 @@ flyHandler('kenya', {
   speed: .2
 });
 flyHandler('zimbabwe', {
-  center: [31.12492652 -17.92837714],
+  center: [31.12492652, -17.92837714],
   zoom: 10,
   speed: .2
 });
