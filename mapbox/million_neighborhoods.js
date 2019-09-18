@@ -86,8 +86,28 @@ flyHandler('haiti', {
   zoom: 10,
   speed: .2
 });
+flyHandler('brasil', {
+  center: [-43.2558354349,-22.9931642826],
+  zoom: 10,
+  speed: .2
+});
 flyHandler('nepal', {
   center: [85.344876, 27.699009],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('philippines', {
+  center: [120.9526113007,14.6548062731],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('india', {
+  center: [72.84803101,19.0365929141],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('pakistan', {
+  center: [66.9894659945,24.9345039855],
   zoom: 10,
   speed: .2
 });
