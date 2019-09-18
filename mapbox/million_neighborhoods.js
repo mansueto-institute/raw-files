@@ -46,6 +46,11 @@ flyHandler('sierra-leone', {
   zoom: 10,
   speed: .2
 });
+flyHandler('nigeria', {
+  center: [3.3528302631,6.4650446851],
+  zoom: 10,
+  speed: .2
+});
 flyHandler('liberia', {
   center: [-10.806036, 6.328368],
   zoom: 10,
