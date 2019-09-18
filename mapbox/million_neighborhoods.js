@@ -62,8 +62,8 @@ flyHandler('nepal', {
   speed: .2
 });
 
-var layers = ['High access', '', 'Universal access', 'Limited access', '', '', 'Critical deficits'];
-var colors = ['#a7f39a', '#d8f6d5', '#faf9f9', '#f7dbdb', '#f09799', '#f07172', '#f55758'];
+var layers = ['Highly connected', 'Connected', 'Partially disconnected', 'Highly disconnected', 'Critically disconnected'];
+var colors = ['#a7f39a', '#faf9f9', '#f7dbdb', '#f07172', '#f55758'];
 
 for (i = 0; i < layers.length; i++) {
   var layer = layers[i];
