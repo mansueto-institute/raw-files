@@ -63,7 +63,7 @@ flyHandler('nepal', {
 });
 
 var layers = ['Highly connected', 'Connected', 'Partially disconnected', 'Moderately disconnected', 'Highly disconnected'];
-var colors = ['#a7f39a', '#faf9f9', '#f7dbdb', '#f07172', '#f55758'];
+var colors = ['#a7f39a', '#faf9f9', '#f7dbdb', '#f09799', '#f55758'];
 
 for (i = 0; i < layers.length; i++) {
   var layer = layers[i];
