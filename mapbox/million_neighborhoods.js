@@ -51,6 +51,31 @@ flyHandler('liberia', {
   zoom: 10,
   speed: .2
 });
+flyHandler('south-africa', {
+  center: [18.6519186575,-34.0667541339],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('kenya', {
+  center: [36.7700362138,-1.318913533],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('zimbabwe', {
+  center: [31.12492652 -17.92837714],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('tanzania', {
+  center: [39.2139383738,-6.8511294828],
+  zoom: 10,
+  speed: .2
+});
+flyHandler('ghana', {
+  center: [-0.2295671004,5.5419797951],
+  zoom: 10,
+  speed: .2
+});
 flyHandler('haiti', {
   center: [-72.336652, 18.538995],
   zoom: 10,
