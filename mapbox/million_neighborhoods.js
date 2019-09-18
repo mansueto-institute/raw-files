@@ -49,7 +49,7 @@ flyHandler('sierra-leone', {
 flyHandler('liberia', {
   center: [-10.806036, 6.328368],
   zoom: 10,
-  speed: 20
+  speed: .2
 });
 flyHandler('haiti', {
   center: [-72.336652, 18.538995],
