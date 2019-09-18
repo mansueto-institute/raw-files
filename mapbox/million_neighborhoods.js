@@ -44,7 +44,7 @@ function flyHandler(id, options) {
 flyHandler('sierra-leone', {
   center: [-13.250978, 8.480201],
   zoom: 10,
-  speed: 20
+  speed: .5
 });
 flyHandler('liberia', {
   center: [-10.806036, 6.328368],
